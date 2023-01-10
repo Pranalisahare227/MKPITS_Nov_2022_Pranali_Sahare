@@ -1,0 +1,32 @@
+<html>
+<head></head>
+<body>
+<pre>
+<script>
+
+var arr=new Array(5);
+//to collect data from keyboard in array
+
+document.writeln("Enter 5 number");
+
+for(i=0;i<=4;i++)
+{
+  var v1=parseInt(prompt("Enter "+i+" number"));
+  arr[i]=v1;
+}
+
+//2 version
+
+a=x =>
+{
+  return(""+x*x);
+
+}
+
+var res=arr.map(a);
+document.write(res);
+
+</script>
+</pre>
+</body>
+</html>
