@@ -1,0 +1,30 @@
+<html>
+<head></head>
+<body>
+<pre>
+<script>
+
+var arr=new Array(5);
+document.writeln("Enter 5 number");
+
+for(i=0;i<=4;i++)
+{
+  var v1=parseInt(prompt("Enter " +i+" number "));
+  arr[i]=v1;
+}
+
+//1 version
+function fun1(x)
+{
+
+  return(x*x);
+
+}
+
+var res=arr.map(fun1);
+document.write(res);
+
+</script>
+</pre>
+</body>
+</html>
