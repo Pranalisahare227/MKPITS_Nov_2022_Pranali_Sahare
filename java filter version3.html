@@ -1,0 +1,30 @@
+<html>
+<head></head>
+<body>
+<pre>
+<script>
+
+var arr=new Array(5);
+document.writeln("Enter 5 number");
+//to collect data from keyboard in array
+
+for(i=0;i<=4;i++)
+{
+  var v1=parseInt(prompt("Enter "+i+" number"));
+  arr[i]=v1;
+}
+
+//3 version
+var a=arr.filter(x =>
+{
+
+  return(""+x%2==0);
+
+});
+
+document.write(a);
+
+</script>
+</pre>
+</body>
+</html>
