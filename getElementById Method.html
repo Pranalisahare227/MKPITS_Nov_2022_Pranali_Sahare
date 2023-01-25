@@ -1,0 +1,77 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+
+function addnum()
+{
+  var v=parseInt(document.getElementById("n1").value);
+  var v2=parseInt(document.getElementById("n2").value);
+  var res=v+v2;
+  var v1= document.getElementById("rs").value=res;
+  //document.write(v1);
+}
+
+function subnum()
+{
+  var v=parseInt(document.getElementById("n1").value);
+  var v2=parseInt(document.getElementById("n2").value);
+  var res=v-v2;
+  var v1= document.getElementById("rs").value=res;
+  //document.write(v1);
+}
+
+function mulnum()
+{
+  var v=parseInt(document.getElementById("n1").value);
+  var v2=parseInt(document.getElementById("n2").value);
+  var res=v*v2;
+  var v1= document.getElementById("rs").value=res;
+  //document.write(v1);
+}
+
+function divnum()
+{
+  var v=parseInt(document.getElementById("n1").value);
+  var v2=parseInt(document.getElementById("n2").value);
+  var res=v/v2;
+  var v1= document.getElementById("rs").value=res;
+  //document.write(v1);
+}
+
+
+</script>
+
+<form>
+<table align="center" border=1 style="background-color:PINK;">
+<tr>
+<td>Enter number1</td>
+<td colspan=3><input type="text"id="n1"/></td>
+</tr>
+
+<tr>
+<td>Enter number2</td>
+<td colspan=3><input type ="text"id="n2"/></td>
+</tr>
+
+<td>res</td>
+<td colspan=3><input type="text"id="rs"/></td>
+</tr>
+<br>
+
+
+
+<tr>
+<td><button type="button" onClick="addnum();">add</button></td>
+<td><button type="button" onClick="subnum();">sub</button></td>
+<td><button type="button" onClick="mulnum();">mul</button></td>
+<td><button type="button" onClick="divnum();">div</button></td>
+</tr>
+</table>
+
+</form>
+
+</body>
+
+</html>
