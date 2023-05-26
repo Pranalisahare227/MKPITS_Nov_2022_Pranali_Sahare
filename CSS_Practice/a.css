@@ -1,0 +1,36 @@
+.heading_cls{
+
+color:#FF0000;
+background-color: pink;
+
+}
+
+.heading_span{
+
+color:rgb(135,56,215);
+
+}
+
+.Heading_h3{
+
+color: rgb(135,56,215);
+
+}
+
+.Heading_h4{
+
+color:rgba(135,56,215,0.3);
+
+}
+
+.Heading_h5{
+
+    color:rgba(255, 0, 0, 1); 
+
+}
+
+.head{
+
+color:hsla(259,0%,0%);
+
+}
