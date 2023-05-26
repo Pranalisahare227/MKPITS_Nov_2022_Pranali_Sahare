@@ -1,0 +1,28 @@
+.cls1{
+
+height: 300px;
+width: 500px;
+background-color: red;
+/* border: 5px solid lightcoral; */
+
+}
+
+.cls2{
+height: 300px;
+width: 500px;
+background-color: yellow;
+/* border: 5px solid lightcoral; */
+}
+
+.cls3{
+    height: 300px;
+    width: 500px;
+    background-color: blue;
+    /* border: 5px solid lightcoral; */
+
+}
+
+p{
+
+    padding: 10px;
+}
